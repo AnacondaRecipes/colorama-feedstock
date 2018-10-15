@@ -1,15 +1,14 @@
 {% set name = "colorama" %}
-{% set version = "0.3.9" %}
+{% set version = "0.4.0" %}
 {% set build = 0 %}
-{% set sha256 = "48eb22f4f8461b1df5734a074b57042430fb06e1d61bd1e11b078c0fe6d7a1f1" %}
+{% set sha256 = "c9b54bebe91a6a803e0772c8561d53f2926bfeb17cd141fbabcb08424086595c" %}
 
 package:
   name: {{ name }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip
   sha256: {{ sha256 }}
 
 build:
