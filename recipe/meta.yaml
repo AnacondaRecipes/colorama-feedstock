@@ -29,14 +29,6 @@ test:
     - pip
   commands:
     - pip check
-  downstreams:
-    - click
-    - loguru  # [win]
-    - pytest  # [win]
-    - pylint  # [win]
-    - rich
-    - sphinx  # [not py==310]
-    - twine
 
 about:
   home: https://github.com/tartley/colorama
